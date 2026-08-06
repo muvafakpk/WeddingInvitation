@@ -11,7 +11,7 @@ export function Footer() {
           <div className="mx-auto mt-6 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
         </div>
         <div className="mt-8 grid gap-6 md:grid-cols-4">
-          <a href="https://instagram.com" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
+          <a href="https://www.instagram.com/mofz.xx?igsh=eHo2dzc2aHZ5NWhi" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
             <FiInstagram className="mx-auto text-2xl" />
             <p className="mt-2 font-[Poppins] text-sm">Instagram</p>
           </a>
@@ -19,7 +19,7 @@ export function Footer() {
             <FiMessageCircle className="mx-auto text-2xl" />
             <p className="mt-2 font-[Poppins] text-sm">WhatsApp</p>
           </a>
-          <a href="tel:+971500000000" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
+          <a href="tel:+918129886664" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
             <FiPhone className="mx-auto text-2xl" />
             <p className="mt-2 font-[Poppins] text-sm">Call</p>
           </a>

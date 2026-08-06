@@ -8,7 +8,7 @@ export function Venue() {
         <div className="min-h-[260px] bg-slate-200 sm:min-h-[320px]">
           <iframe
             title="Wedding Venue"
-            src="https://www.google.com/maps?q=Dubai%20Royal%20Grand%20Hall&z=14&output=embed"
+            src="https://www.google.com/maps/place/Nurture+Spark+Digital/@12.1048924,75.2074726,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba46d615f856083:0xcad474701a3d2e85!8m2!3d12.1048924!4d75.2074726!16s%2Fg%2F11z3ktkpzq!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D"
             className="h-full w-full"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -27,11 +27,11 @@ export function Venue() {
             <div className="flex items-start gap-3">
               <FiMapPin className="mt-1 text-xl text-[#0f6d58]" />
               <p className="font-[Poppins] text-sm leading-7 text-slate-600">
-                Al Barsha, Dubai, United Arab Emirates
+                Veggara payagadi,Kannur,Kerala
               </p>
             </div>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Dubai%20Royal%20Grand%20Hall"
+              href="https://www.google.com/maps/place/Nurture+Spark+Digital/@12.1048924,75.2074726,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba46d615f856083:0xcad474701a3d2e85!8m2!3d12.1048924!4d75.2074726!16s%2Fg%2F11z3ktkpzq!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-[#d4af37] bg-[#d4af37] px-5 py-3 font-[Poppins] text-sm font-semibold uppercase tracking-[0.25em] text-[#111111]"

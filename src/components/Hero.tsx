@@ -23,7 +23,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
             <span className="block text-[#C8A95B] text-3xl sm:text-5xl">&amp;</span>
             <span className="block">{groomName}</span>
           </div>
-          <p className="text-sm uppercase tracking-[0.35em] text-[#7d715d] sm:text-base">
+          <p className="whitespace-nowrap text-sm uppercase tracking-[0.35em] text-[#7d715d] sm:text-base">
             01 November 2026 • 10:00 AM
           </p>
         </div>
