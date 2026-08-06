@@ -3,8 +3,8 @@ import { FiCalendar, FiClock, FiMapPin, FiBookOpen, FiCoffee } from 'react-icons
 
 const details = [
   { icon: FiCalendar, title: 'Date', value: '01 November 2026', accent: 'text-[#0f6d58]', singleLine: true },
-  { icon: FiClock, title: 'Time', value: '6:30\u00A0PM', accent: 'text-[#0f6d58]', singleLine: true },
-  { icon: FiMapPin, title: 'Venue', value: 'The Royal Grand Hall, Dubai', accent: 'text-[#0f6d58]', singleLine: false },
+  { icon: FiClock, title: 'Time', value: '10:00\u00A0AM', accent: 'text-[#0f6d58]', singleLine: true },
+  { icon: FiMapPin, title: 'Venue', value: 'Veggara,payagadi', accent: 'text-[#0f6d58]', singleLine: false },
   { icon: FiBookOpen, title: 'Nikah', value: 'Ceremony & Blessings', accent: 'text-[#0f6d58]', singleLine: false },
   { icon: FiCoffee, title: 'Dinner', value: 'Elegant reception feast', accent: 'text-[#0f6d58]', singleLine: false },
 ];
