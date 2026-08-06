@@ -1,30 +1,80 @@
-import { motion } from 'framer-motion';
-import { GiPresent } from 'react-icons/gi';
+import { motion } from "framer-motion";
 
 export function Loader() {
   return (
     <motion.div
-      initial={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: 0.6 } }}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-[radial-gradient(circle_at_top,_rgba(15,109,88,0.24),_transparent_60%),_linear-gradient(135deg,_#f8f6f1,_#fff)]"
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.8 }}
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#F8F5EF]"
     >
-      <motion.div
-        initial={{ scale: 0.85, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
-        className="rounded-full border border-emerald-800/20 bg-white/70 p-8 shadow-[0_25px_80px_rgba(15,109,88,0.14)] backdrop-blur-xl"
-      >
+      <div className="text-center px-8">
+
+        {/* Small Ornament */}
+
         <motion.div
-          animate={{ rotate: 360 }}
-          transition={{ duration: 2.2, repeat: Infinity, ease: 'linear' }}
-          className="flex h-24 w-24 items-center justify-center rounded-full border-2 border-emerald-900/20 border-t-[#d4af37]"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7 }}
+          className="mb-8 text-3xl text-[#C8A95B]"
         >
-          <GiPresent className="text-4xl text-[#0f6d58]" />
+          ✦
         </motion.div>
-        <p className="mt-4 text-center font-[Cormorant_Garamond] text-lg text-[#0f6d58]">
-          Preparing your invitation...
-        </p>
-      </motion.div>
+
+        {/* Welcome */}
+
+        <motion.h1
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.2,
+            duration: 0.8,
+          }}
+          className="font-[Cormorant_Garamond] text-6xl font-semibold text-[#40382F]"
+        >
+          Welcome
+        </motion.h1>
+
+        {/* Divider */}
+
+        <motion.div
+          initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{
+            delay: 0.7,
+            duration: 0.8,
+          }}
+          className="mx-auto mt-6 h-[2px] w-32 origin-center rounded-full bg-[#C8A95B]"
+        />
+
+        {/* Arabic */}
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            delay: 1,
+            duration: 0.8,
+          }}
+          className="mt-8 font-[Amiri] text-3xl text-[#B18A35]"
+        >
+          بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيم
+        </motion.p>
+
+        {/* Invitation */}
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            delay: 1.5,
+            duration: 0.8,
+          }}
+          className="mt-8 text-base uppercase tracking-[8px] text-[#7C7062]"
+        >
+          Wedding Invitation
+        </motion.p>
+
+      </div>
     </motion.div>
   );
 }

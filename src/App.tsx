@@ -15,9 +15,12 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setLoading(false), 1400);
-    return () => window.clearTimeout(timer);
-  }, []);
+  const timer = window.setTimeout(() => {
+    setLoading(false);
+  }, 4000); // 4 seconds
+
+  return () => window.clearTimeout(timer);
+}, []);
 
   return (
     <div id="top">
