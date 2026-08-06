@@ -30,8 +30,8 @@ export function Hero({ brideName, groomName }: HeroProps) {
 
 <div className="relative w-full max-w-[34rem] overflow-visible rounded-[3.2rem] border-4 border-[#D4B656] bg-[#F7E3CB] px-4 py-4 shadow-[0_24px_60px_rgba(0,0,0,0.11)] sm:max-w-[36rem] sm:px-5 sm:py-5 lg:max-w-[40rem] lg:py-6">
           <div className="absolute left-1/2 top-0 h-10 w-36 -translate-x-1/2 rounded-b-[2rem] bg-[#d9c293]" />
-          <div className="relative mx-auto w-full overflow-hidden rounded-[3.2rem] rounded-t-[6.5rem] bg-[#F5E6D1] p-2 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.28)] sm:max-w-[34rem] lg:max-w-full">
-            <div className="relative aspect-[10/13] h-[28rem] w-full overflow-hidden rounded-[3rem] rounded-t-[6.2rem] bg-[#F6E5D3] sm:h-[32rem] lg:h-[36rem]">
+          <div className="relative mx-auto w-full overflow-hidden rounded-[2.8rem] rounded-t-[5.8rem] bg-[#F5E6D1] p-2 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.28)] sm:max-w-[34rem] lg:max-w-full">
+            <div className="relative h-[28rem] w-full overflow-hidden rounded-[2.6rem] rounded-t-[5.4rem] bg-[#F6E5D3] sm:h-[32rem] lg:h-[36rem]">
               <img
                 src="/assets/shaza.jpeg"
                 alt="Shaza and Salman"
@@ -40,7 +40,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
                   target.onerror = null;
                   target.src = '/assets/couple-portrait.svg';
                 }}
-                className="h-full w-full object-contain"
+                className="h-full w-full object-cover"
               />
             </div>
           </div>
