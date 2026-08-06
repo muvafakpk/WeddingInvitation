@@ -15,7 +15,7 @@ export function Footer() {
             <FiInstagram className="mx-auto text-2xl" />
             <p className="mt-2 font-[Poppins] text-sm">Instagram</p>
           </a>
-          <a href="https://wa.me/971500000000" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
+          <a href="https://wa.me/8129886664" className="rounded-[1.2rem] border border-white/20 bg-white/10 p-4 text-center backdrop-blur">
             <FiMessageCircle className="mx-auto text-2xl" />
             <p className="mt-2 font-[Poppins] text-sm">WhatsApp</p>
           </a>
