@@ -14,7 +14,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center gap-8 rounded-[2rem] border border-[#C8A95B]/20 bg-[#FCF5EB]/95 p-5 shadow-[0_40px_100px_rgba(0,0,0,0.14)] backdrop-blur-xl sm:p-6 md:p-8 lg:p-10"
+        className="relative z-10 mx-auto flex w-full max-w-[58rem] flex-col items-center gap-8 rounded-[2rem] border border-[#C8A95B]/20 bg-[#FCF5EB]/95 p-6 shadow-[0_40px_100px_rgba(0,0,0,0.14)] backdrop-blur-xl sm:p-7 md:p-8 lg:p-10 lg:min-h-[48rem]"
       >
         <div className="flex w-full flex-col items-center gap-4 text-center text-[#2b2a28]">
           <p className="text-xs uppercase tracking-[0.4em] text-[#C8A95B]/80">Royal Malabar Nikah</p>
@@ -28,10 +28,10 @@ export function Hero({ brideName, groomName }: HeroProps) {
           </p>
         </div>
 
-<div className="relative w-full max-w-lg overflow-visible rounded-[3.2rem] border-4 border-[#D4B656] bg-[#F7E3CB] px-4 py-4 shadow-[0_24px_60px_rgba(0,0,0,0.11)] sm:max-w-[560px] sm:px-5 sm:py-5 md:scale-95 lg:max-w-[620px]">
+<div className="relative w-full max-w-[34rem] overflow-visible rounded-[3.2rem] border-4 border-[#D4B656] bg-[#F7E3CB] px-4 py-4 shadow-[0_24px_60px_rgba(0,0,0,0.11)] sm:max-w-[36rem] sm:px-5 sm:py-5 lg:max-w-[40rem] lg:py-6">
           <div className="absolute left-1/2 top-0 h-10 w-36 -translate-x-1/2 rounded-b-[2rem] bg-[#d9c293]" />
-          <div className="relative mx-auto w-full overflow-hidden rounded-[3.2rem] rounded-t-[6.5rem] bg-[#F5E6D1] p-2 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.28)] sm:max-w-[520px] md:max-w-[540px] lg:max-w-full">
-            <div className="relative aspect-[10/13] w-full overflow-hidden rounded-[3rem] rounded-t-[6.2rem] bg-[#F6E5D3]">
+          <div className="relative mx-auto w-full overflow-hidden rounded-[3.2rem] rounded-t-[6.5rem] bg-[#F5E6D1] p-2 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.28)] sm:max-w-[34rem] lg:max-w-full">
+            <div className="relative aspect-[10/13] h-[28rem] w-full overflow-hidden rounded-[3rem] rounded-t-[6.2rem] bg-[#F6E5D3] sm:h-[32rem] lg:h-[36rem]">
               <img
                 src="/assets/shaza.jpeg"
                 alt="Shaza and Salman"
