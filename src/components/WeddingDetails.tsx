@@ -2,23 +2,23 @@ import { motion } from 'framer-motion';
 import { FiCalendar, FiClock, FiMapPin, FiBookOpen, FiCoffee } from 'react-icons/fi';
 
 const details = [
-  { icon: FiCalendar, title: 'Date', value: '18 December 2026', accent: 'text-[#0f6d58]' },
-  { icon: FiClock, title: 'Time', value: '6:30 PM', accent: 'text-[#0f6d58]' },
-  { icon: FiMapPin, title: 'Venue', value: 'The Royal Grand Hall, Dubai', accent: 'text-[#0f6d58]' },
-  { icon: FiBookOpen, title: 'Nikah', value: 'Ceremony & Blessings', accent: 'text-[#0f6d58]' },
-  { icon: FiCoffee, title: 'Dinner', value: 'Elegant reception feast', accent: 'text-[#0f6d58]' },
+  { icon: FiCalendar, title: 'Date', value: '01 November 2026', accent: 'text-[#0f6d58]', singleLine: true },
+  { icon: FiClock, title: 'Time', value: '6:30\u00A0PM', accent: 'text-[#0f6d58]', singleLine: true },
+  { icon: FiMapPin, title: 'Venue', value: 'The Royal Grand Hall, Dubai', accent: 'text-[#0f6d58]', singleLine: false },
+  { icon: FiBookOpen, title: 'Nikah', value: 'Ceremony & Blessings', accent: 'text-[#0f6d58]', singleLine: false },
+  { icon: FiCoffee, title: 'Dinner', value: 'Elegant reception feast', accent: 'text-[#0f6d58]', singleLine: false },
 ];
 
 export function WeddingDetails() {
   return (
-    <section id="details" className="px-4 py-20 sm:px-6 lg:px-8">
+    <section id="details" className="px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Wedding Details</p>
           <h2 className="mt-2 font-[Cinzel] text-3xl text-[#0f6d58] sm:text-4xl">A celebration of love, faith, and family</h2>
-          <div className="mx-auto mt-6 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
+          <div className="mx-auto mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent sm:mt-5" />
         </div>
-        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+        <div className="mt-6 grid gap-4 md:mt-8 md:grid-cols-2 xl:mt-10 xl:grid-cols-5 xl:gap-5">
           {details.map((detail, index) => {
             const Icon = detail.icon;
             return (
@@ -34,7 +34,9 @@ export function WeddingDetails() {
                   <Icon />
                 </div>
                 <h3 className="font-[Cinzel] text-xl text-[#0f6d58]">{detail.title}</h3>
-                <p className="mt-2 font-[Poppins] text-sm leading-7 text-slate-600">{detail.value}</p>
+                <p className={`mt-2 font-[Poppins] text-[0.9rem] leading-6 text-slate-600 sm:text-sm sm:leading-7 ${detail.singleLine ? 'whitespace-nowrap' : ''}`}>
+                  {detail.value}
+                </p>
               </motion.article>
             );
           })}
