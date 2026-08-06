@@ -35,8 +35,14 @@ body {
   box-sizing: border-box;
 }
 
-#root {
-  min-height: 100vh;
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 @keyframes floatGlow {

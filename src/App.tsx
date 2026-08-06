@@ -22,7 +22,7 @@ function App() {
   return (
     <div id="top">
       <AnimatePresence>{loading && <Loader />}</AnimatePresence>
-      <div className="min-h-screen bg-[linear-gradient(135deg,_#f9f4ea_0%,_#f5ede0_100%)] text-[#23211f] transition-colors duration-500">
+      <div className="min-h-dvh w-full overflow-hidden bg-[linear-gradient(135deg,_#f9f4ea_0%,_#f5ede0_100%)] text-[#23211f] transition-colors duration-500">
         <Hero brideName="Shaza" groomName="Salman" />
         <FloatingElements />
         <Countdown targetDate={new Date('2026-11-01T10:00:00')} />
