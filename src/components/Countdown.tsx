@@ -68,7 +68,7 @@ export function Countdown({ targetDate }: CountdownProps) {
   ];
 
   return (
-    <section id="countdown" className="px-4 py-20 sm:px-6 lg:px-8">
+    <section id="countdown" className="px-4 py-10 sm:px-6 sm:py-12 lg:px-8 lg:py-14">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ export function Countdown({ targetDate }: CountdownProps) {
         <div className="text-center">
           <p className="mb-4 font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Live Countdown</p>
           <h2 className="font-[Cinzel] text-3xl text-[#0f6d58] sm:text-4xl">Our Beautiful Journey Begins Soon</h2>
-          <div className="mx-auto my-6 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
+          <div className="mx-auto my-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent sm:my-5" />
         </div>
         {!timeLeft.isOver ? (
           <div className="grid grid-cols-4 gap-2 sm:gap-3 lg:gap-4">

@@ -11,14 +11,14 @@ const details = [
 
 export function WeddingDetails() {
   return (
-    <section id="details" className="px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+    <section id="details" className="px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Wedding Details</p>
           <h2 className="mt-2 font-[Cinzel] text-3xl text-[#0f6d58] sm:text-4xl">A celebration of love, faith, and family</h2>
-          <div className="mx-auto mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent sm:mt-5" />
+          <div className="mx-auto mt-3 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent sm:mt-4" />
         </div>
-        <div className="mt-6 grid gap-4 md:mt-8 md:grid-cols-2 xl:mt-10 xl:grid-cols-5 xl:gap-5">
+        <div className="mt-5 grid gap-4 md:mt-6 md:grid-cols-2 xl:mt-8 xl:grid-cols-5 xl:gap-5">
           {details.map((detail, index) => {
             const Icon = detail.icon;
             return (

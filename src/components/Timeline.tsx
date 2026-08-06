@@ -9,14 +9,14 @@ const timeline = [
 
 export function Timeline() {
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8">
+    <section className="px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Timeline</p>
           <h2 className="mt-2 font-[Cinzel] text-3xl text-[#0f6d58] sm:text-4xl">Moments we cherish</h2>
-          <div className="mx-auto mt-6 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
+          <div className="mx-auto mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
         </div>
-        <div className="mt-10 space-y-6">
+        <div className="mt-6 space-y-4">
           {timeline.map((item, index) => (
             <motion.div
               key={item.title}
