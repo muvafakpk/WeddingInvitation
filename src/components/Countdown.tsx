@@ -81,13 +81,15 @@ export function Countdown({ targetDate }: CountdownProps) {
           <div className="mx-auto my-6 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
         </div>
         {!timeLeft.isOver ? (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-4 gap-2 sm:gap-3 lg:gap-4">
             {values.map((item) => (
-              <div key={item.label} className="rounded-2xl border border-[#C8A95B]/20 bg-[#F7E8D9] p-5 text-center shadow-[0_12px_30px_rgba(0,0,0,0.12)]">
-                <div className="font-[Cinzel] text-4xl font-semibold text-[#C8A95B] sm:text-5xl">
+              <div key={item.label} className="rounded-2xl border border-[#C8A95B]/20 bg-[#F7E8D9] p-2 text-center shadow-[0_12px_30px_rgba(0,0,0,0.12)] sm:p-4 lg:p-5">
+                <div className="font-[Cinzel] text-xl font-semibold text-[#C8A95B] sm:text-3xl lg:text-5xl">
                   <NumberDisplay value={item.value} />
                 </div>
-                <div className="mt-2 font-[Poppins] text-sm uppercase tracking-[0.3em] text-[#A8B3A8]">{item.label}</div>
+                <div className="mt-1 font-[Poppins] text-[0.6rem] uppercase tracking-[0.15em] text-[#A8B3A8] sm:mt-2 sm:text-xs sm:tracking-[0.3em] lg:text-sm">
+                  {item.label}
+                </div>
               </div>
             ))}
           </div>
