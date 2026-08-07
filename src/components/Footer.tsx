@@ -9,7 +9,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="px-4 pb-24 pt-20 sm:px-6 lg:px-8">
+    <footer className="px-4 pb-24 pt-7 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl rounded-[2rem] border border-[#D0B16A]/25 bg-[#FEF6EA] p-6 sm:p-8 text-[#2b2a28] shadow-[0_24px_70px_rgba(0,0,0,0.10)]">
 
         {/* Heading */}
