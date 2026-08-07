@@ -33,6 +33,7 @@ body {
 }
 
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -45,6 +46,7 @@ body,
   min-height: 100dvh;
   overflow-x: hidden;
 }
+
 
 @keyframes floatGlow {
   0%,
