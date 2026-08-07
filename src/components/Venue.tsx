@@ -30,7 +30,7 @@ export function Venue() {
             <div className="flex items-start gap-3">
               <FiMapPin className="mt-1 text-xl text-[#0f6d58]" />
               <p className="font-[Poppins] text-sm leading-7 text-slate-600">
-                Veggara payagadi,Kannur,Kerala
+                Mattool Street No.10 Near NMUP School
               </p>
             </div>
             <a

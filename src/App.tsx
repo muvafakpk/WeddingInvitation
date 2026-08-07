@@ -10,6 +10,7 @@ import { QuranVerse } from './components/QuranVerse';
 import { Timeline } from './components/Timeline';
 import { Venue } from './components/Venue';
 import { Footer } from './components/Footer';
+
 // import FallingLeaves from './components/FallingLeaves';
 
 function App() {

@@ -1,42 +1,138 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-const parents = [
+const families = [
   {
-    title: 'Bride Parents',
-    names: ['Mr. & Mrs. Rahman', 'With love and blessings'],
+    side: "Bride's Family",
+    color: "#8A1538",
+    parents: {
+      father: "Abdul Salam TV",
+      mother: "Shareefa BS",
+    },
+    paternal: {
+      grandfather: "Ebrahim",
+      grandmother: "Amina TV",
+    },
+    maternal: {
+      grandfather: "Ali KUnhi NK",
+      grandmother: "Zainaba BS",
+    },
   },
   {
-    title: 'Groom Parents',
-    names: ['Mr. & Mrs. Khalid', 'With heartfelt joy and prayers'],
+    side: "Groom's Family",
+    color: "#0F6D58",
+    parents: {
+      father: "Groom Father",
+      mother: "Groom Mother",
+    },
+    paternal: {
+      grandfather: "Groom Grandfather",
+      grandmother: "Groom Grandmother",
+    },
+    maternal: {
+      grandfather: "Groom Maternal Grandfather",
+      grandmother: "Groom Maternal Grandmother",
+    },
   },
 ];
 
 export function Parents() {
   return (
-    <section className="px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12">
+    <section className="px-4 py-10 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
+
         <div className="text-center">
-          <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Parents</p>
-          <h2 className="mt-2 font-[Cinzel] text-3xl text-[#0f6d58] sm:text-4xl">With gratitude and blessings</h2>
-          <div className="mx-auto mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
+          <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#C8A95B]">
+            Families
+          </p>
+
+          <h2 className="mt-3 font-[Cinzel] text-4xl text-[#2B2B2B]">
+            With the Blessings of Our Families
+          </h2>
+
+          <div className="mx-auto mt-5 h-px w-24 bg-gradient-to-r from-transparent via-[#C8A95B] to-transparent" />
         </div>
-        <div className="mt-6 grid gap-6 lg:grid-cols-2">
-          {parents.map((parent, index) => (
-            <motion.article
-              key={parent.title}
-              initial={{ opacity: 0, y: 18 }}
+
+        <div className="mt-10 grid gap-8 lg:grid-cols-2">
+
+          {families.map((family) => (
+
+            <motion.div
+              key={family.side}
+              initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: index * 0.1 }}
-              className="rounded-[1.8rem] border border-[#D0B16A]/25 bg-[#FFF6EA] p-8 text-center shadow-[0_20px_60px_rgba(0,0,0,0.08)] backdrop-blur"
+              viewport={{ once: true }}
+              className="rounded-[28px] border border-[#D9BC70]/30 bg-[#FFF8EF] p-8 shadow-xl"
             >
-              <h3 className="font-[Cinzel] text-2xl text-[#0f6d58]">{parent.title}</h3>
-              <div className="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
-              <p className="mt-4 font-[Cormorant_Garamond] text-xl leading-9 text-slate-700">{parent.names[0]}</p>
-              <p className="mt-2 font-[Poppins] text-sm uppercase tracking-[0.25em] text-[#0f6d58]/80">{parent.names[1]}</p>
-            </motion.article>
+
+              <h3
+                className="text-center font-[Cinzel] text-3xl"
+                style={{ color: family.color }}
+              >
+                {family.side}
+              </h3>
+
+              <div className="mx-auto mt-4 mb-8 h-px w-20 bg-[#D4AF37]" />
+
+              {/* Parents */}
+
+              <div className="mb-8">
+
+                <h4 className="text-lg font-semibold text-[#C8A95B]">
+                  Parents
+                </h4>
+
+                <p className="mt-3 text-lg text-[#333]">
+                  <strong>Father:</strong> {family.parents.father}
+                </p>
+
+                <p className="mt-1 text-lg text-[#333]">
+                  <strong>Mother:</strong> {family.parents.mother}
+                </p>
+
+              </div>
+
+              {/* Paternal */}
+
+              <div className="mb-8">
+
+                <h4 className="text-lg font-semibold text-[#C8A95B]">
+                  Paternal Grandparents
+                </h4>
+
+                <p className="mt-3 text-[#555]">
+                  Grandfather : {family.paternal.grandfather}
+                </p>
+
+                <p className="mt-1 text-[#555]">
+                  Grandmother : {family.paternal.grandmother}
+                </p>
+
+              </div>
+
+              {/* Maternal */}
+
+              <div>
+
+                <h4 className="text-lg font-semibold text-[#C8A95B]">
+                  Maternal Grandparents
+                </h4>
+
+                <p className="mt-3 text-[#555]">
+                  Grandfather : {family.maternal.grandfather}
+                </p>
+
+                <p className="mt-1 text-[#555]">
+                  Grandmother : {family.maternal.grandmother}
+                </p>
+
+              </div>
+
+            </motion.div>
+
           ))}
+
         </div>
+
       </div>
     </section>
   );
