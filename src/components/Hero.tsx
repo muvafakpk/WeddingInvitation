@@ -10,6 +10,24 @@ export function Hero({ brideName, groomName }: HeroProps) {
     <section className="relative flex min-h-[calc(100vh-4rem)] items-start justify-center overflow-hidden px-4 py-8 sm:px-6 sm:py-12 lg:px-8 sm:items-center md:min-h-screen">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(200,169,91,0.16),_transparent_24%),radial-gradient(circle_at_bottom_right,_rgba(16,76,58,0.18),_transparent_20%)]" />
       <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(200,169,91,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(200,169,91,0.08)_1px,transparent_1px)] [background-size:24px_24px]" />
+     <motion.div
+  animate={{
+    rotate: [-2, 2, -2],
+  }}
+  transition={{
+    duration: 4,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+  className="absolute top-0 -left-10 z-30 origin-top"
+>
+  <img
+    src="/assets/bulb.png"
+    alt="Bulbs"
+    draggable={false}
+    className="w-[160px] md:w-[200px] lg:w-[250px] select-none"
+  />
+</motion.div>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
