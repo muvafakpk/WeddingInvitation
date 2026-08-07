@@ -45,7 +45,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
             01 November 2026 
           </p>
           <p className="whitespace-nowrap text-sm uppercase tracking-[0.35em] text-[#B7B7B7] sm:text-base">
-            • 10:00 AM
+            • 01:00 PM
           </p>
         </div>
 
