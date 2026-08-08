@@ -21,12 +21,12 @@ const families = [
     side: "Groom's Family",
     color: "#0F6D58",
     parents: {
-      father: "Groom Father",
-      mother: "Groom Mother",
+      father: " Father",
+      mother: " Mother",
     },
     paternal: {
-      grandfather: "Groom Grandfather",
-      grandmother: "Groom Grandmother",
+      grandfather: " Grandfather",
+      grandmother: " Grandmother",
     },
     maternal: {
       grandfather: "Groom Maternal Grandfather",
