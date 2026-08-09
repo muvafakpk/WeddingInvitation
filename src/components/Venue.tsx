@@ -24,7 +24,7 @@ export function Venue() {
           className="flex flex-col justify-center p-5 sm:p-6 lg:p-8"
         >
           <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Venue</p>
-          <h2 className="mt-3 font-[Cinzel] text-3xl text-[#0f6d58]">Shaza‘s House</h2>
+          <h2 className="mt-3 font-[Cinzel] text-3xl text-[#0f6d58]">Shaza‘s</h2>
           <div className="mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
           <div className="mt-5 space-y-3 rounded-[1.25rem] border border-[#d4af37]/20 bg-[#f8f6f1] p-5">
             <div className="flex items-start gap-3">
