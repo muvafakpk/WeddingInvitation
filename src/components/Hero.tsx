@@ -35,7 +35,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
         className="relative z-10 mx-auto flex w-full max-w-[58rem] flex-col items-center gap-8 rounded-[2rem] border border-[#C8A95B]/20 bg-[#FCF5EB]/95 p-6 shadow-[0_40px_100px_rgba(0,0,0,0.14)] backdrop-blur-xl sm:p-7 md:p-8 lg:p-10 lg:min-h-[48rem]"
       >
         <div className="flex w-full flex-col items-center gap-4 text-center text-[#2b2a28]">
-          <p className="text-xs uppercase tracking-[0.4em] text-[#C8A95B]/80">Royal Malabar Nikah</p>
+          <p className="text-xs uppercase tracking-[0.4em] text-[#C8A95B]/80">Forever Begins here !</p>
           <div className="text-[2.6rem] font-[Cinzel] uppercase leading-[0.95] tracking-[0.12em] text-[#2b2a28] sm:text-[4rem] lg:text-[5rem]">
             <span className="block">{brideName}</span>
             <span className="block text-[#C8A95B] text-3xl sm:text-5xl">&amp;</span>
@@ -45,7 +45,7 @@ export function Hero({ brideName, groomName }: HeroProps) {
             01 November 2026 
           </p>
           <p className="whitespace-nowrap text-sm uppercase tracking-[0.35em] text-[#B7B7B7] sm:text-base">
-            • 04:00 PM
+            • 11:00 AM
           </p>
         </div>
 

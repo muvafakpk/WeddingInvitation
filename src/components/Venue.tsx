@@ -24,7 +24,7 @@ export function Venue() {
           className="flex flex-col justify-center p-5 sm:p-6 lg:p-8"
         >
           <p className="font-[Poppins] text-sm uppercase tracking-[0.35em] text-[#0f6d58]">Venue</p>
-          <h2 className="mt-3 font-[Cinzel] text-3xl text-[#0f6d58]">The Royal Grand Hall</h2>
+          <h2 className="mt-3 font-[Cinzel] text-3xl text-[#0f6d58]">Shaza‘s House</h2>
           <div className="mt-4 h-px w-24 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
           <div className="mt-5 space-y-3 rounded-[1.25rem] border border-[#d4af37]/20 bg-[#f8f6f1] p-5">
             <div className="flex items-start gap-3">
@@ -34,7 +34,7 @@ export function Venue() {
               </p>
             </div>
             <a
-              href="https://www.google.com/maps/place/Nurture+Spark+Digital/@12.1048924,75.2074726,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba46d615f856083:0xcad474701a3d2e85!8m2!3d12.1048924!4d75.2074726!16s%2Fg%2F11z3ktkpzq!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/NMUP+School+-+Kavile+Paramb+Rd,+Mattool+North,+Kerala+670325/@11.9941578,75.2732116,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba4145e38c55c11:0x9183530a5ebe43c9!8m2!3d11.9941578!4d75.2732116!16s%2Fg%2F1ptxlzgg9!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-[#d4af37] bg-[#d4af37] px-5 py-3 font-[Poppins] text-sm font-semibold uppercase tracking-[0.25em] text-[#111111]"

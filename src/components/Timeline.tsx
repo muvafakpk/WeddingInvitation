@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 
 const timeline = [
-  { title: 'Engagement', date: 'May 2026', description: 'A cherished beginning filled with joy and blessings.' },
-  { title: 'Nikah', date: '01 November2026', description: 'The sacred ceremony with families and loved ones.' },
-  { title: 'Reception', date: '01 November 2026', description: 'A grand celebration of love and togetherness.' },
-  { title: 'Dinner', date: 'After reception', description: 'An intimate gathering for heartfelt memories.' },
+  { title: 'Mehandi', date: '30 October 7 PM', description: 'A cherished beginning filled with joy and blessings.' },
+  { title: 'Nikah', date: '01 November 12 PM', description: 'The sacred ceremony with families and loved ones.' },
+  { title: 'Reception', date: '01 November 12 PM', description: 'A grand celebration of love and togetherness.' },
+  { title: 'Gala Night', date: '31 October 7 PM', description: 'An intimate gathering for heartfelt memories.' },
 ];
 
 export function Timeline() {
