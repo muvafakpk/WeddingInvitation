@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import { FiCalendar, FiClock, FiMapPin, FiBookOpen, FiCoffee } from 'react-icons/fi';
 
 const details = [
-  { icon: FiCalendar, title: 'Date', value: '01 November 2026', accent: 'text-[#0f6d58]', singleLine: true },
+  { icon: FiCalendar, title: 'Date', value: '08 November 2026', accent: 'text-[#0f6d58]', singleLine: true },
   { icon: FiClock, title: 'Time', value: '11:00\u00A0AM', accent: 'text-[#0f6d58]', singleLine: true },
   { icon: FiMapPin, title: 'Venue', value: 'Shaza’s , Mattool Street No. 10 , Near NMUP School', accent: 'text-[#0f6d58]', singleLine: false },
   { icon: FiBookOpen, title: 'Nikah', value: 'Vedambram Juma Masjid Mattool', accent: 'text-[#0f6d58]', singleLine: false },
-  { icon: FiCoffee, title: 'Reception', value: 'An evening of love,laughter & togetherness', accent: 'text-[#0f6d58]', singleLine: false },
+  { icon: FiCoffee, title: 'Reception', value: 'An Moment of love,laughter & togetherness', accent: 'text-[#0f6d58]', singleLine: false },
 ];
 
 export function WeddingDetails() {
