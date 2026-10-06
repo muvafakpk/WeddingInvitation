@@ -8,7 +8,6 @@ import { WeddingDetails } from './components/WeddingDetails';
 import { Parents } from './components/Parents';
 import { QuranVerse } from './components/QuranVerse';
 // import { Timeline } from './components/Timeline';
-import { Venue } from './components/Venue';
 import { Footer } from './components/Footer';
 function App() {
   const [loading, setLoading] = useState(true);
