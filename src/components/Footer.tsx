@@ -66,7 +66,7 @@ export function Footer() {
 
         {/* Google Maps */}
         <a
-          href="https://www.google.com/maps/place/NMUP+School+-+Kavile+Paramb+Rd,+Mattool+North,+Kerala+670325/@11.9941578,75.2732116,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba4145e38c55c11:0x9183530a5ebe43c9!8m2!3d11.9941578!4d75.2732116!16s%2Fg%2F1ptxlzgg9!18m1!1e1?entry=ttu"
+          href="https://www.google.com/maps/place/11%C2%B059'28.0%22N+75%C2%B016'31.2%22E/@11.991117,75.2727701,17z/data=!3m1!4b1!4m4!3m3!8m2!3d11.991117!4d75.275345!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#d4af37] px-6 py-3 font-[Poppins] text-[9px] font-semibold uppercase tracking-[0.2em] text-[#111] shadow-[0_8px_20px_rgba(212,175,55,0.2)] transition-all duration-300 hover:-translate-y-1 sm:px-7 sm:text-[10px]"
